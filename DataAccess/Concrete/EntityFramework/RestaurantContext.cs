@@ -13,7 +13,7 @@ namespace DataAccess.Concrete.EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=HP\SQLEXPRESS;Database=Restaurant;Trusted_Connection=true;TrustServerCertificate=true");
+            optionsBuilder.UseSqlServer(@"Server=eatdbsomeebrc.mssql.somee.com;Database=eatdbsomeebrc;User Id=burcutas_SQLLogin_1; password=ntd8wehwln;TrustServerCertificate=true");
         }
 
         public DbSet<Branch> Branches { get; set; }

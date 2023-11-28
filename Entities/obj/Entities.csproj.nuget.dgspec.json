@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\RestaurantProjectBackend\\Entities\\Entities.csproj": {}
+    "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\RestaurantProjectBackend\\Core\\Core.csproj": {
+    "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\RestaurantProjectBackend\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\HP\\Desktop\\RestaurantProjectBackend\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\RestaurantProjectBackend\\Core\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -87,7 +87,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -96,18 +97,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\RestaurantProjectBackend\\Entities\\Entities.csproj": {
+    "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\RestaurantProjectBackend\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\HP\\Desktop\\RestaurantProjectBackend\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\RestaurantProjectBackend\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -124,8 +125,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Desktop\\RestaurantProjectBackend\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\RestaurantProjectBackend\\Core\\Core.csproj"
+              "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\Core\\Core.csproj"
               }
             }
           }
@@ -145,7 +146,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -154,7 +156,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
