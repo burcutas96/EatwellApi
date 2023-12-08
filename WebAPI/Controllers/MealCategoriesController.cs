@@ -16,7 +16,7 @@ namespace WebAPI.Controllers
             _mealCategoryService = mealCategoryService;
         }
 
-        [HttpPut]
+        [HttpPost]
         public IActionResult Add([FromForm(Name = "Image")] IFormFile file, [FromForm] MealCategory mealCategory)
         {
             var result = _mealCategoryService.Add(file, mealCategory);
@@ -38,7 +38,7 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpPost]
+        [HttpPut]
         public IActionResult Update([FromForm(Name = "Image")] IFormFile file,[FromForm] MealCategory mealCategory)
         {
             var result = _mealCategoryService.Update(file, mealCategory);
