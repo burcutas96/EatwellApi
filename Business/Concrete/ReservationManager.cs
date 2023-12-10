@@ -28,7 +28,7 @@ namespace Business.Concrete
         public IResult Add(Reservation reservation)
         {
             var result = BusinessRules.Run(
-                CheckIfReservation(reservation.ReservationDate, reservation.ReservationTime));
+                CheckIfReservationBranch(reservation.BranchId, reservation.ReservationDate, reservation.ReservationTime));
 
             if (!result.Success)
             {
@@ -38,6 +38,7 @@ namespace Business.Concrete
             _reservationDal.Add(reservation);
             return new SuccessResult(ReservationMessages.ReservationAdded);
         }
+
 
         public IResult Delete(Reservation reservation)
         {
@@ -67,19 +68,22 @@ namespace Business.Concrete
 
 
         //Business Codes
-        private IResult CheckIfReservation(DateTime reservationDate, string reservationTime)
+        private IResult CheckIfReservationBranch(int branchId, DateTime date, string time)
         {
-            var resultDate = _reservationDal.GetAll(r => r.ReservationDate == reservationDate);
+            var resultBranch = _reservationDal.GetAll(r => r.BranchId == branchId);
 
-            if (resultDate.Count > 0)
+            if(resultBranch != null)
             {
-                var resultTime = _reservationDal.GetAll(r => r.ReservationTime == reservationTime).Any();
-
-                if (resultTime)
+                foreach (var branch in resultBranch)
                 {
-                    return new ErrorResult(ReservationMessages.ReservationExists);
+                    if (branch.ReservationDate == date) 
+                    { 
+                        if(branch.ReservationTime == time)
+                        {
+                            return new ErrorResult(ReservationMessages.ReservationExists);
+                        }
+                    }
                 }
-                return new SuccessResult();
             }
             return new SuccessResult();
         }

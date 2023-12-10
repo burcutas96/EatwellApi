@@ -22,8 +22,9 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddControllers();
 
 builder.Services.AddCors(options =>
-    options.AddDefaultPolicy(policy => policy.WithOrigins("https://localhost:7189", 
-    "http://localhost:5189", "http://127.0.0.1:5500").AllowAnyHeader().AllowAnyMethod().AllowCredentials()));
+    options.AddDefaultPolicy(policy => policy.WithOrigins("https://localhost:7189", "http://127.0.0.1:5500",
+        "http://eatwell.somee.com", "http://www.eatwell.somee.com", "https://eatwell.somee.com")
+        .AllowAnyHeader().AllowAnyMethod().AllowCredentials()));
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

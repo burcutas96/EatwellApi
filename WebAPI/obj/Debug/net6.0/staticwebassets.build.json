@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2sB6Hq2JlYst64TlkMcNqm956225Z+Q0c98qpekma1Y=",
+  "Hash": "twHZ3PbEuOFCBP09kPtmxTSP3+Xq7Ju7Ab/c/mexlJY=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
@@ -221,6 +221,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\5163aa6d-8a18-4c0a-b1ad-932053dbd572.webp"
     },
     {
+      "Identity": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\Images\\55bb70ed-7103-4d29-830b-e860d4dc0f54.jpg",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Images/55bb70ed-7103-4d29-830b-e860d4dc0f54.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\55bb70ed-7103-4d29-830b-e860d4dc0f54.jpg"
+    },
+    {
       "Identity": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\Images\\5734af91-dbe4-4c0e-982a-783e81141d0e.jpg",
       "SourceId": "WebAPI",
       "SourceType": "Discovered",
@@ -306,12 +323,12 @@
       "OriginalItemSpec": "wwwroot\\Images\\64e2482e-b478-4aea-a87a-33a36744172f.jpg"
     },
     {
-      "Identity": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\Images\\66126c30-e20d-4429-89e7-98b95a9baa43.webp",
+      "Identity": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\Images\\66126c30-e20d-4429-89e7-98b95a9baa43.jpg",
       "SourceId": "WebAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\",
       "BasePath": "_content/WebAPI",
-      "RelativePath": "Images/66126c30-e20d-4429-89e7-98b95a9baa43.webp",
+      "RelativePath": "Images/66126c30-e20d-4429-89e7-98b95a9baa43.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -320,7 +337,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\66126c30-e20d-4429-89e7-98b95a9baa43.webp"
+      "OriginalItemSpec": "wwwroot\\Images\\66126c30-e20d-4429-89e7-98b95a9baa43.jpg"
     },
     {
       "Identity": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\Images\\6a20c097-e73e-484d-a0eb-48f75ac94991.jpg",
@@ -425,6 +442,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\88a66db7-5783-47bc-ae1f-8b939b7fd6a6.jpg"
     },
     {
+      "Identity": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\Images\\88b98d13-7f4f-4b0a-a35e-f398434d4bf6.jpg",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Images/88b98d13-7f4f-4b0a-a35e-f398434d4bf6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\88b98d13-7f4f-4b0a-a35e-f398434d4bf6.jpg"
+    },
+    {
       "Identity": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\Images\\89b3641b-a16d-409f-a3b6-0cd656d3d67c.jpeg",
       "SourceId": "WebAPI",
       "SourceType": "Discovered",
@@ -457,23 +491,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\8a20f465-956e-4b33-92fe-9d5011943baa.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\Images\\8c61c004-d25a-460e-95cb-142b40cab1e0.jpg",
-      "SourceId": "WebAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\",
-      "BasePath": "_content/WebAPI",
-      "RelativePath": "Images/8c61c004-d25a-460e-95cb-142b40cab1e0.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\8c61c004-d25a-460e-95cb-142b40cab1e0.jpg"
     },
     {
       "Identity": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\Images\\8d284351-a1e7-4bf1-a3c2-99cff011643a.jpg",
@@ -593,6 +610,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\b0dd6012-419c-4b40-b6b2-ba632b4a13bb.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\Images\\b1c8a073-a89d-4ab1-a3cc-73d6b0874a79.webp",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Images/b1c8a073-a89d-4ab1-a3cc-73d6b0874a79.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\b1c8a073-a89d-4ab1-a3cc-73d6b0874a79.webp"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\Images\\b485aa66-4dca-4f69-af82-3aa8510cb86b.jpg",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Images/b485aa66-4dca-4f69-af82-3aa8510cb86b.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\b485aa66-4dca-4f69-af82-3aa8510cb86b.jpg"
     },
     {
       "Identity": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\Images\\b485aa66-4dca-4f69-af82-3aa8510cb86b.webp",
@@ -729,6 +780,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\c8cf32f0-f35b-4af9-bef9-a4e10bf2672a.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\Images\\c97050d4-7e8d-483f-b77a-af6808ac.jpg",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Images/c97050d4-7e8d-483f-b77a-af6808ac.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\c97050d4-7e8d-483f-b77a-af6808ac.jpg"
     },
     {
       "Identity": "C:\\Users\\HP\\Documents\\GitHub\\RestaurantProjectBackend\\WebAPI\\wwwroot\\Images\\c97050d4-7e8d-483f-b77a-af6808ac15ce.jpg",
