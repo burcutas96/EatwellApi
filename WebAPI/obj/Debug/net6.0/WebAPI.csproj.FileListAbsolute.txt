@@ -281,3 +281,9 @@ C:\Users\HP\Documents\GitHub\RestaurantProjectBackend\WebAPI\bin\Debug\net6.0\Sy
 C:\Users\HP\Documents\GitHub\RestaurantProjectBackend\WebAPI\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\HP\Documents\GitHub\RestaurantProjectBackend\WebAPI\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\HP\Documents\GitHub\RestaurantProjectBackend\WebAPI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\HP\Documents\GitHub\RestaurantProjectBackend\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\HP\Documents\GitHub\RestaurantProjectBackend\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\HP\Documents\GitHub\RestaurantProjectBackend\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\HP\Documents\GitHub\RestaurantProjectBackend\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\HP\Documents\GitHub\RestaurantProjectBackend\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\HP\Documents\GitHub\RestaurantProjectBackend\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll

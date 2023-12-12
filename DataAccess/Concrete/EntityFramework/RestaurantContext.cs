@@ -1,6 +1,8 @@
 ﻿using Core.Entities.Concrete;
 using Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,10 +12,14 @@ using System.Threading.Tasks;
 namespace DataAccess.Concrete.EntityFramework
 {
     public class RestaurantContext : DbContext
-    {
+    { 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=eatdbsomeebrc.mssql.somee.com;Database=eatdbsomeebrc;User Id=burcutas_SQLLogin_1; password=ntd8wehwln;TrustServerCertificate=true");
+            IConfigurationRoot configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json")
+                .Build();
+            optionsBuilder.UseSqlServer(configuration.GetConnectionString("RestaurantConnection"));
         }
 
         public DbSet<Branch> Branches { get; set; }
