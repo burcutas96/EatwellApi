@@ -19,7 +19,7 @@
 
 <br>
   
-🚀 Projemi çalışırken görmek için: https://eatwell.somee.com
+🚀 Projemi çalışırken görmek için: https://eatwellrestaurant.somee.com
 
 <br>
 
